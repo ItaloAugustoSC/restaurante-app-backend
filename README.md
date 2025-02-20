@@ -55,6 +55,7 @@ O backend será responsável por fornecer a API REST para o aplicativo.
   - `POST /users/register` → Cadastro de usuário  
   - `POST /users/login` → Login e retorno do token JWT  
   - `GET /users/me` → Retorna dados do usuário autenticado  
+  - `DELETE /users/:id` → Deleta um usuário
 
 - **Restaurantes**  
   - `GET /restaurants` → Lista de restaurantes do usuário  
